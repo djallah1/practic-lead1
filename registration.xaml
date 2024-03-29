@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfApp1.registration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Регистрация в системе" Height="450" Width="800" Background="MediumPurple">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+        <TextBlock Background="White" Grid.Row="1" Grid.Column="0" Height="50" Width="300" Margin="250,0,250,58"/>
+        <TextBlock Background="White" Grid.Row="1" Grid.Column="0" Height="50" Width="300" Margin="250,83,250,84" Grid.RowSpan="2"/>
+        <TextBlock Text="Есть аккаунт ? Авторизоваться" TextAlignment="Center" FontSize="15" Background="MediumPurple" Grid.Row="3" Margin="10,0,0,0" Cursor="AppStarting"/>
+        <Image Margin="204,4,555,62" Source="/free-icon-font-user-3917688.png" Stretch="Fill" RenderTransformOrigin="-0.268,2.447" Grid.Row="1"/>
+        <Image Margin="203,85,555,87" Source="/free-icon-font-lock-3917591.png" Stretch="Fill" Grid.Row="1" RenderTransformOrigin="1.976,-1.395" Grid.RowSpan="2"/>
+        <Image Margin="555,88,204,91" Source="/free-icon-font-eye-3917112.png" Stretch="Fill" Grid.Row="1" Grid.RowSpan="2"/>
+        <Button Content="Зарегистрироваться" FontSize="15" HorizontalContentAlignment="Center" Height="50" Margin="325,29,325,29" Grid.Row="3"/>
+        <TextBlock Background="White" Grid.Row="2" Grid.Column="0" Height="50" Width="300" Margin="250,49,250,10"/>
+        <Image Margin="555,54,204,18" Source="/free-icon-font-eye-3917112.png" Stretch="Fill" Grid.Row="2"/>
+        <TextBlock Text="Повторите пароль" TextAlignment="Center" FontSize="15" Background="MediumPurple" Grid.Row="2" Margin="83,62,550,28"/>
+        <TextBlock Background="White" Grid.Column="0" Height="50" Width="300" Margin="250,41,250,18"/>
+        <Image Margin="204,54,555,20" Source="/free-icon-font-envelope-3916611.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>
